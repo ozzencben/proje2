@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+img {
+    height: 700px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: all 500ms ease-in-out;
+    border: 1px solid #fff;
+}
+
+.expandImage{
+    width: 400px;
+}
+
+.shrinkingImage{
+    width: 120px;
+}
